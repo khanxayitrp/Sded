@@ -1,5 +1,5 @@
  @extends('common.main')
-@section('content')
+ @section('content')
  <!-- Breadcrumbs-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">

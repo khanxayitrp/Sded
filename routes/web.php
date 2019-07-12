@@ -30,6 +30,9 @@ Route::get('/logout','Auth\LoginController@logout')->name('logout');
 
 // Admin section
 
-Route::get('/admin','WebadminController@Listdata')->name('webadmin.index')->middleware('auth');;
+// Route::get('/admin','WebadminController@Listdata')->name('webadmin.index')->middleware('auth');
+Route::group(['prefix'=>'/admin','middleware'=>[]],function(){
 
+Route::get('/','WebadminController@Listdata')->name('webadmin.index');
 
+});
