@@ -1,4 +1,5 @@
 @extends('admin.main')
+@section('title','Register an Account')
 @section('content')
 <div class="container">
     <div class="card card-register mx-auto mt-5">
@@ -56,7 +57,7 @@
           <button type="submit" id="subscribe" class="btn btn-primary btn-block"> Create Account </button>
         </form>
         <div class="text-center">
-          <a class="d-block small mt-3" href="login.html">Login Page</a>
+          <a class="d-block small mt-3" href="{{route('web.signin')}}">Login Page</a>
           <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
         </div>
       </div>

@@ -1,4 +1,5 @@
  @extends('admin.main')
+ @section('title','ເຂົ້າສູ່ລະບົບ')
  @section('content')
  <div class="container">
     <div class="card card-login mx-auto mt-5">
@@ -40,7 +41,7 @@
           
         </form>
         <div class="text-center">
-          <a class="d-block small mt-3" href="register.html">Register an Account</a>
+          <a class="d-block small" href="{{route('web.signup')}}">Register an account</a>
           <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
         </div>
       </div>

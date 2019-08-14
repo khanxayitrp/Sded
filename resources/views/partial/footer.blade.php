@@ -42,12 +42,133 @@
     </div>
   </div>
 
+
+  <!-- Modal flag -->
+
+  <div class="modal  fade" id="flagModel1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header modal-header-warning">
+                      <h4>ສິ່ງຄວນຮູ້</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        
+                    </div>
+                    <div class="modal-body">
+                        {{-- <img id="imgPopUp2" src="/bcel/bcelweb-datas/popup/imgs/bcel_web_file_279_ce8db765ac01b78582d60ad2cedf7a88.jpg" class="img-responsive" alt=""> --}}
+                        <span id="contPopUp2"><a href="#">ສ ປປ ລາວ ສ້າງຕັ້ງ ວັນທີ 2 ທັນວາ 1975 ແລະ ຄົບຮອບປີທີ 45 </a></span>
+                    </div>
+                     
+                </div>
+            </div>
+ 
+ 
+        </div>
+
+   <!-- Modal flag -->
+
+  <div class="modal  fade" id="flagModel2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header modal-header-warning">
+                      <h4>ສິ່ງຄວນຮູ້</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        
+                    </div>
+                    <div class="modal-body">
+                        {{-- <img id="imgPopUp2" src="/bcel/bcelweb-datas/popup/imgs/bcel_web_file_279_ce8db765ac01b78582d60ad2cedf7a88.jpg" class="img-responsive" alt=""> --}}
+                        <span id="contPopUp2"><a href="#">ພັກປະຊາຊົນປະຕິວັດລາວ ສ້າງຕັ້ງ ວັນທີ 22 ມີນາ 1955 ແລະ ຄົບຮອບປີທີ 65 </a></span>
+                    </div>
+                     
+                </div>
+            </div>
+ 
+ 
+        </div>
+  
+   <!-- Modal flag -->
+
+  <div class="modal  fade" id="flagModel3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header modal-header-warning">
+                      <h4>ສິ່ງຄວນຮູ້</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        
+                    </div>
+                    <div class="modal-body">
+                        {{-- <img id="imgPopUp2" src="/bcel/bcelweb-datas/popup/imgs/bcel_web_file_279_ce8db765ac01b78582d60ad2cedf7a88.jpg" class="img-responsive" alt=""> --}}
+                        <span id="contPopUp2"><a href="#">ກຳມະບານລາວ ສ້າງຕັ້ງ ວັນທີ ........ ແລະ ຄົບຮອບປີທີ .... </a></span>
+                    </div>
+                     
+                </div>
+            </div>
+ 
+ 
+        </div>
+
+   <!-- Modal flag -->
+
+  <div class="modal  fade" id="flagModel4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header modal-header-warning">
+                      <h4>ສິ່ງຄວນຮູ້</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        
+                    </div>
+                    <div class="modal-body">
+                        {{-- <img id="imgPopUp2" src="/bcel/bcelweb-datas/popup/imgs/bcel_web_file_279_ce8db765ac01b78582d60ad2cedf7a88.jpg" class="img-responsive" alt=""> --}}
+                        <span id="contPopUp2"><a href="#">ສະຫະພັນແມ່ຍິງລາວ ສ້າງຕັ້ງ ວັນທີ 20 ກໍລະກົດ .... ແລະ ຄົບຮອບປີທີ ..... </a></span>
+                    </div>
+                     
+                </div>
+            </div>
+ 
+ 
+        </div>
+
+   <!-- Modal flag -->
+
+  <div class="modal  fade" id="flagModel5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header modal-header-warning">
+                      <h4>ສິ່ງຄວນຮູ້</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        
+                    </div>
+                    <div class="modal-body">
+                        {{-- <img id="imgPopUp2" src="/bcel/bcelweb-datas/popup/imgs/bcel_web_file_279_ce8db765ac01b78582d60ad2cedf7a88.jpg" class="img-responsive" alt=""> --}}
+                        <span id="contPopUp2"><a href="#">ຊາວໜຸ່ມປະຕິວັດລາວ ສ້າງຕັ້ງ ວັນທີ ..... ແລະ ຄົບຮອບປີທີ ..... </a></span>
+                    </div>
+                     
+                </div>
+            </div>
+ 
+ 
+        </div>
+
+
   <!-- Bootstrap core JavaScript-->
   <script src="{{url('/')}}/vendor/jquery/jquery.min.js"></script>
   <script src="{{url('/')}}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
   <script src="{{url('/')}}/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for slider-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="{{url('/')}}/dist/jquery.fancybox.js"></script>
 
   <!-- Page level plugin JavaScript-->
   <script src="{{url('/')}}/vendor/chart.js/Chart.min.js"></script>
@@ -57,6 +178,18 @@
   <!-- Custom scripts for all pages-->
   <script src="{{url('/')}}/js/sb-admin.min.js"></script>
 
+
+  {{-- <script src="{{url('/')}}/dist/js/jquery.sliderPro.min.js"></script> --}}
+
   <!-- Demo scripts for this page-->
   <script src="{{url('/')}}/js/demo/datatables-demo.js"></script>
-  <script src="{{url('/')}}/js/demo/chart-area-demo.js"></script>
+  {{-- <script src="{{url('/')}}/js/demo/chart-area-demo.js"></script> --}}
+
+  <script>
+    $(document).ready(function() {
+  $(".fancybox").fancybox({
+    openEffect  : 'none',
+    closeEffect : 'none'
+  });
+});
+  </script>
