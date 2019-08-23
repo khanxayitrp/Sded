@@ -34,7 +34,7 @@
       {
         var data = google.visualization.arrayToDataTable(analytics);
         var options = {
-          title: 'Percentage SEX of SDED'
+          title: 'Percentage SEX of Unitel'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('myPieChart'));
@@ -62,14 +62,14 @@
           <li class="breadcrumb-item">
             <a href="#">Dashboard</a>
           </li>
-          <li class="breadcrumb-item active">ພະນັກງານພາຍໃນກົມ</li>
+          <li class="breadcrumb-item active">ພະນັກງານພາຍໃນບໍລິສັດ</li>
         </ol>
 
         <!-- DataTables Example -->
         <div class="card mb-3">
           <div class="card-header">
             <i class="fas fa-chart-area"></i>
-            SDED Chart</div>
+            Unitel Chart</div>
           <div class="card-body">
             <div id="myPieChart" width="100%" height="50%"></div>
           </div>

@@ -31,6 +31,7 @@
           
           <a class="dropdown-item" href="{{route('webadmin.addactivitytype')}}">ເພີ້ມປະເພດກິດຈະກຳ</a>
           <a class="dropdown-item" href="{{route('webadmin.addlocation')}}">ເພີ້ມຊື່ບ່ອນປະຈຳການ</a>
+          <a class="dropdown-item" href="{{route('webadmin.addposition')}}">ເພີ້ມຕຳແໜ່ງ</a>
           {{-- <a class="dropdown-item" href="forgot-password.html">Forgot Password</a> --}}
           @else
           <a class="dropdown-item" href="{{route('web.signin')}}">Login</a>

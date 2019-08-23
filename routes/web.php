@@ -101,6 +101,14 @@ Route::post('/Location/post','WebadminController@SaveLocation')->name('webadmin.
 
 Route::get('/Location/list','WebadminController@ListLocation')->name('webadmin.listlocation');
 
+Route::get('/Position','WebadminController@AddnewPosition')->name('webadmin.addposition');
+
+Route::post('/Position/post','WebadminController@SavePosition')->name('webadmin.saveposition');
+
+Route::get('/Position/list','WebadminController@ListPosition')->name('webadmin.listposition');
+
+Route::post('/Position/delete/{id}','WebadminController@DeletePosition')->name('webadmin.deleteposition');
+
 Route::get('/Activitytype','WebadminController@AddnewActivity')->name('webadmin.addactivitytype');
 
 Route::post('/Activitytype/post','WebadminController@SaveActivitytype')->name('webadmin.saveactivitytype');

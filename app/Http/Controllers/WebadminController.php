@@ -51,6 +51,13 @@ class WebadminController extends Controller
         return view('alllocation',compact('data'));
     }
 
+    function ListPosition()
+    {
+        $data = positionlevel::all();
+        //dd($data);
+        return view('allposition',compact('data'));
+    }
+
     function ListallActivitytype()
     {
         $data = activitytype::all();
@@ -678,6 +685,32 @@ class WebadminController extends Controller
                 return redirect()->route('webadmin.listactivity')->with('warning', 'ຂໍ້ມູນນີ້ມີໃນຖານຂໍ້ມູນແລ້ວ');
             }
 
+    }
+
+    function AddnewPosition()
+    {
+        $data = positionlevel::all();
+        return view('addposition',compact('data'));
+    }
+
+    function SavePosition(Request $request)
+    {
+        $this->validate($request,[
+            'PositionName'=>'required'
+        ]);
+
+        $SavePo = new positionlevel;
+        $SavePo->PositionName =$request->PositionName;
+        $SavePo->save();
+        return redirect()->route('webadmin.listposition')->with('success', 'ບັນທຶກຂໍ້ມູນສຳເລັດແລ້ວ');
+    }
+
+    function DeletePosition($id){
+        
+        $Delete = positionlevel::where('PositionID',$id)->first();
+        $Delete->delete();
+
+        return redirect()->route('webadmin.listposition')->with('success', 'ລົບຂໍ້ມູນສະມາຊິກສຳເລັດແລ້ວ');
     }
 
     function AddnewLocation()
